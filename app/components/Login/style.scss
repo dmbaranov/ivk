@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 10% 1fr 50px 1fr 10%;
+  grid-gap: 10px 15px;
+}
+
+.greeting {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  align-self: center;
+
+  text-align: center;
+}
+
+.welcomeString {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.ivkTitle {
+  font-weight: bold;
+  font-family: "Roboto-Bold", sans-serif;
+}
+
+.features {
+  text-align: left;
+}
+
+.buttonLogin {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+
+  align-self: start;
+}
